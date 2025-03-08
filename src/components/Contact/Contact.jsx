@@ -17,7 +17,7 @@ const Contact = ({ contact, onDelete }) => {
       </div>
 
       <button className={css.btn} onClick={() => onDelete(contact.id)}>
-        Delete
+        <span>Delete</span>
       </button>
     </div>
   );

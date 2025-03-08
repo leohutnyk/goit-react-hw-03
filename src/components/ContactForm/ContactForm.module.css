@@ -2,17 +2,23 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  padding: 10px;
+  border: 1px solid #9b9898;
+  border-radius: 10px;
+}
+.field {
+  padding: 10px;
 }
 .btn {
   display: block;
-  background: rgb(245, 243, 243);
-  color: black;
+  background: #a37d94;
+  color: #ffffff;
   padding: 10px 28px;
   min-width: 110px;
   height: 40px;
   margin-left: auto;
   margin-right: auto;
-  border: 0;
+  border: 1px solid #5b5757;
   border-radius: 4px;
   cursor: pointer;
 }
